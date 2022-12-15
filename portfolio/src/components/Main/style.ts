@@ -9,7 +9,7 @@ export const StyledMain = styled.main`
 
   color: var(--white-color);
 
-  @media (max-width: 490px) {
+  @media (max-width: 510px) {
     width: 70%;
     height: 98%;
   }

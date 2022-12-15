@@ -9,7 +9,7 @@ export const Portfolio = () => {
         loop={true}
         controls={false}
         src="https://assets7.lottiefiles.com/packages/lf20_fbry1ksx.json"
-        style={{ height: "500px", width: "90%" }}
+        className="animation"
       ></Player>
       <div className="container">
         <h1 className="typewriter">{`<h1>Portfólio em construção</h1>`}</h1>

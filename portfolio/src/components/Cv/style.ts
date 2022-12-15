@@ -15,6 +15,10 @@ export const StyledCv = styled.div`
     }
   }
 
+  .title-mobile {
+    display: none;
+  }
+
   div:first-child {
     max-width: 680px;
 
@@ -82,6 +86,17 @@ export const StyledCv = styled.div`
       padding: 10px;
 
       overflow-x: auto;
+    }
+  }
+
+  @media (max-width: 490px) {
+    div:first-child {
+      display: none;
+    }
+
+    .title-mobile {
+      display: unset;
+      color: var(--primary-green);
     }
   }
 `;

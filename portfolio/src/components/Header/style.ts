@@ -47,8 +47,7 @@ export const StyledHeader = styled.header`
     }
   }
 
-  @media (max-width: 490px) {
-    width: 120%;
+  @media (max-width: 510px) {
     max-width: none;
 
     button {

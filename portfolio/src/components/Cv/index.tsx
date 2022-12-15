@@ -42,6 +42,7 @@ export const Cv = () => {
         <span>{`)`}</span>
         <span>{`}`}</span>
       </div>
+      <h1 className="title-mobile">Desenvolvedor Frontend</h1>
       <div className="techs">
         <h2>Tecnologias:</h2>
         <ul className="techs-info">

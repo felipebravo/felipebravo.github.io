@@ -54,9 +54,7 @@ export const StyledFooter = styled.footer`
     }
   }
 
-  @media (max-width: 490px) {
-    width: 105%;
-
+  @media (max-width: 510px) {
     div:last-child {
       svg {
         display: none;
@@ -64,7 +62,7 @@ export const StyledFooter = styled.footer`
     }
   }
 
-  @media (max-width: 410px) {
+  @media (max-width: 420px) {
     div:first-child {
       span {
         display: none;
