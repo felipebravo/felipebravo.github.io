@@ -1,12 +1,13 @@
 import { useContext } from "react";
 import { MainContext } from "../../contexts/MainContext";
 import { Cv } from "../Cv";
+import { Modal } from "../Modal";
 import { Portfolio } from "../Portfolio";
 import { Welcome } from "../Welcome";
 import { StyledMain } from "./style";
 
 export const Main = () => {
-  const { whichPage } = useContext(MainContext);
+  const { whichPage, isModalOpen } = useContext(MainContext);
 
   return (
     <StyledMain>
@@ -17,6 +18,7 @@ export const Main = () => {
       ) : (
         <Welcome />
       )}
+      {isModalOpen && <Modal />}
     </StyledMain>
   );
 };

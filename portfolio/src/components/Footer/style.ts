@@ -22,7 +22,7 @@ export const StyledFooter = styled.footer`
     gap: 10px;
   }
 
-  @media (max-width: 1050px) {
+  @media (max-width: 1140px) {
     div:last-child {
       span:first-child {
         display: none;
@@ -30,7 +30,7 @@ export const StyledFooter = styled.footer`
     }
   }
 
-  @media (max-width: 960px) {
+  @media (max-width: 1030px) {
     div:last-child {
       span:nth-child(2) {
         display: none;
@@ -38,7 +38,7 @@ export const StyledFooter = styled.footer`
     }
   }
 
-  @media (max-width: 870px) {
+  @media (max-width: 950px) {
     div:last-child {
       span:nth-child(3) {
         display: none;
@@ -46,7 +46,7 @@ export const StyledFooter = styled.footer`
     }
   }
 
-  @media (max-width: 810px) {
+  @media (max-width: 890px) {
     div:last-child {
       span {
         display: none;

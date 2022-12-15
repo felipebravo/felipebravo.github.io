@@ -18,6 +18,7 @@ export const StyledNav = styled.nav`
   color: var(--grey-2);
 
   div {
+    position: relative;
     width: 100%;
 
     display: flex;
@@ -36,6 +37,33 @@ export const StyledNav = styled.nav`
       &:focus {
         color: var(--white-color);
       }
+    }
+  }
+
+  .message {
+    background-color: var(--bg-dark-color);
+    position: absolute;
+    width: 240px;
+    height: 20px;
+    left: 50px;
+    top: 140px;
+    z-index: 10;
+    padding: 0 10px;
+    text-align: end;
+    border-radius: 0 0 8px 8px;
+    animation: showOption 1s ease;
+    color: var(--white-color);
+
+    ::after {
+      content: "";
+      width: 15px;
+      height: 15px;
+      display: block;
+      position: absolute;
+      bottom: 10px;
+      left: -1px;
+      transform: skew(15deg, 45deg);
+      background-color: var(--bg-dark-color);
     }
   }
 `;
