@@ -44,6 +44,10 @@ export default createGlobalStyle`
     border: none;
   }
 
+  a{
+    text-decoration: none;
+  }
+
   #root{
     position: relative;
 

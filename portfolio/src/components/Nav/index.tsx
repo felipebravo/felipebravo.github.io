@@ -2,6 +2,7 @@ import { useContext, useEffect, useRef, useState } from "react";
 import { StyledNav } from "./style";
 import {
   VscAccount,
+  VscGithubAlt,
   VscFiles,
   VscDebugAlt,
   VscSearch,
@@ -47,6 +48,13 @@ export const Nav = () => {
           type="button"
           onClick={() => setIsModalOpen(!isModalOpen)}
         />
+        <a
+          href="https://github.com/felipebravo"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <VscGithubAlt />
+        </a>
       </div>
     </StyledNav>
   );

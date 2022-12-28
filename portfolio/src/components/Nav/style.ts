@@ -26,6 +26,10 @@ export const StyledNav = styled.nav`
     align-items: center;
     gap: 20px;
 
+    a {
+      color: var(--grey-2);
+    }
+
     svg {
       font-size: 32px;
       cursor: pointer;
