@@ -1,19 +1,28 @@
-import { Player } from "@lottiefiles/react-lottie-player";
 import { StyledPortfolio } from "./style";
+import RickAndMortyGif from "../../assets/RickAndMorty.gif";
+import { StyledDescription, StyledGif } from "../Gifs/style";
 
 export const Portfolio = () => {
   return (
     <StyledPortfolio>
-      <Player
-        autoplay={true}
-        loop={true}
-        controls={false}
-        src="https://assets7.lottiefiles.com/packages/lf20_fbry1ksx.json"
-        className="animation"
-      ></Player>
-      <div className="container">
-        <h1 className="typewriter">{`<h1>Portfólio em construção</h1>`}</h1>
-      </div>
+      <StyledGif>
+        <a
+          href="https://rick-and-morty-project-d2an2msj9-felipebravo.vercel.app/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img src={RickAndMortyGif} alt="RickAndMortyGif" />
+          <StyledDescription>
+            <p>Aplicação feita em React com Typescript e Styled Components.</p>
+            <p>Informações sendo consumidas da API do Rick And Morty.</p>
+            <p>
+              Permite verificar todos os personagens e localizações, podendo
+              filtrar os residentes de cada localização e realizar busca por
+              personagem.
+            </p>
+          </StyledDescription>
+        </a>
+      </StyledGif>
     </StyledPortfolio>
   );
 };
