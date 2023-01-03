@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const StyledGif = styled.div`
+export const StyledGif = styled.li`
   position: relative;
 
   width: 300px;
@@ -21,6 +21,11 @@ export const StyledGif = styled.div`
     div {
       display: block;
     }
+  }
+
+  @media (max-width: 410px) {
+    width: 200px;
+    height: 100px;
   }
 `;
 

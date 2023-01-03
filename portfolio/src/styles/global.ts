@@ -44,8 +44,12 @@ export default createGlobalStyle`
     border: none;
   }
 
-  a{
+  a {
     text-decoration: none;
+  }
+
+  ul, li {
+    list-style: none;
   }
 
   #root{

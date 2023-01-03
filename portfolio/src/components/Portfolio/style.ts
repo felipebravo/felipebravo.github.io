@@ -1,13 +1,12 @@
 import styled from "styled-components";
 
-export const StyledPortfolio = styled.div`
-  height: 100%;
+export const StyledPortfolio = styled.ul`
+  height: fit-content;
+  width: fit-content;
 
   display: flex;
-  flex-direction: column;
-  h1 {
-    text-align: center;
-  }
+  flex-wrap: wrap;
+  gap: 10px;
 
   .animation {
     width: 90%;
