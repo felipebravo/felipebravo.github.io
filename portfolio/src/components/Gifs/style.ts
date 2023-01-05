@@ -40,6 +40,8 @@ export const StyledDescription = styled.div`
   height: 100%;
   padding: 10px;
 
+  overflow-y: auto;
+
   color: var(--grey-3);
   font-weight: 700;
 

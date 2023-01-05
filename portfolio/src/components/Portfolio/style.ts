@@ -1,28 +1,14 @@
 import styled from "styled-components";
 
 export const StyledPortfolio = styled.ul`
-  height: fit-content;
+  max-height: 95%;
+  min-height: 210px;
   width: fit-content;
+  padding: 5px;
+
+  overflow-y: auto;
 
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
-
-  .animation {
-    width: 90%;
-    height: 500px;
-  }
-
-  @media (max-width: 670px) {
-    .animation {
-      height: 300px;
-    }
-
-    h1 {
-      white-space: unset;
-      animation: unset;
-      border-right: transparent;
-      width: fit-content;
-    }
-  }
 `;

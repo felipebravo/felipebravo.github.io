@@ -1,14 +1,15 @@
 import { StyledPortfolio } from "./style";
+import { StyledDescription, StyledGif } from "../Gifs/style";
 import RickAndMortyGif from "../../assets/RickAndMorty.gif";
 import AppBankGif from "../../assets/bank-app.gif";
-import { StyledDescription, StyledGif } from "../Gifs/style";
+import TechHubGif from "../../assets/tech-hub.gif";
 
 export const Portfolio = () => {
   return (
     <StyledPortfolio>
       <StyledGif>
         <a
-          href="https://rick-and-morty-project-d2an2msj9-felipebravo.vercel.app/"
+          href="https://rick-and-morty-project-two.vercel.app/"
           target="_blank"
           rel="noreferrer"
         >
@@ -26,7 +27,7 @@ export const Portfolio = () => {
       </StyledGif>
       <StyledGif>
         <a
-          href="https://bank-application-4huyai8ph-felipebravo.vercel.app/"
+          href="https://bank-application.vercel.app/"
           target="_blank"
           rel="noreferrer"
         >
@@ -38,6 +39,24 @@ export const Portfolio = () => {
               gastos. É possível filtrar por despesas ou ganhos, além de fazer o
               cálculo de saldo.
             </p>
+          </StyledDescription>
+        </a>
+      </StyledGif>
+      <StyledGif>
+        <a
+          href="https://tech-hub-lac.vercel.app/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img src={TechHubGif} alt="TechHubGif" />
+          <StyledDescription>
+            <p>Aplicação feita em React com Typescript.</p>
+            <p>
+              Ferramenta para adicionar, editar e excluir tecnologias, criando
+              assim um hub de tecnologias. Ideal para controlar os conhecimentos
+              adquiridos e respectivos níveis.
+            </p>
+            <p>(Em construção!!!)</p>
           </StyledDescription>
         </a>
       </StyledGif>
