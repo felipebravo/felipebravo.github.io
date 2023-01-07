@@ -3,6 +3,7 @@ import { StyledDescription, StyledGif } from "../Gifs/style";
 import RickAndMortyGif from "../../assets/RickAndMorty.gif";
 import AppBankGif from "../../assets/bank-app.gif";
 import TechHubGif from "../../assets/tech-hub.gif";
+import LoginRegisterGif from "../../assets/login-register.gif";
 
 export const Portfolio = () => {
   return (
@@ -57,6 +58,23 @@ export const Portfolio = () => {
               adquiridos e respectivos níveis.
             </p>
             <p>(Em construção!!!)</p>
+          </StyledDescription>
+        </a>
+      </StyledGif>
+      <StyledGif>
+        <a
+          href="https://login-register-mocha-rho.vercel.app/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img src={LoginRegisterGif} alt="LoginRegisterGif" />
+          <StyledDescription>
+            <p>Aplicação feita em React com Javascript e Styled Components.</p>
+            <p>
+              Página de login, registro e dashboard simples. As tecnologias
+              usadas foram, React Router DOM, Hook Form, React Icons, Yup para
+              validações e key frame para as animações.
+            </p>
           </StyledDescription>
         </a>
       </StyledGif>
