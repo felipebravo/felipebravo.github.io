@@ -99,4 +99,14 @@ export const StyledCv = styled.div`
       color: var(--primary-green);
     }
   }
+
+  @media (max-width: 310px) {
+    .title-mobile {
+      display: none;
+    }
+
+    .techs > h2 {
+      font-size: 16px;
+    }
+  }
 `;

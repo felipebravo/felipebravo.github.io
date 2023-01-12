@@ -62,7 +62,7 @@ export const StyledFooter = styled.footer`
     }
   }
 
-  @media (max-width: 420px) {
+  @media (max-width: 440px) {
     div:first-child {
       span {
         display: none;

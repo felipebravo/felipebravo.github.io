@@ -27,6 +27,11 @@ export const StyledGif = styled.li`
     width: 200px;
     height: 100px;
   }
+
+  @media (max-width: 290px) {
+    width: 160px;
+    height: 100px;
+  }
 `;
 
 export const StyledDescription = styled.div`

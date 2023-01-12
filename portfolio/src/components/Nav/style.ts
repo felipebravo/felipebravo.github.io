@@ -49,7 +49,7 @@ export const StyledNav = styled.nav`
     position: absolute;
     width: 240px;
     height: 20px;
-    left: 50px;
+    left: 30px;
     top: 140px;
     z-index: 10;
     padding: 0 10px;
